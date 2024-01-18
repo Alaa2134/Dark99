@@ -2,4 +2,4 @@
   docker:
       worker: Dockerfile
 run:
-   worker: python3 -m JoKeRUB
+   worker: python3 -m DARK
