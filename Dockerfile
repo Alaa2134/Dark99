@@ -1,9 +1,9 @@
 FROM jepthoniq/jepthon:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/jepthoniq/jepthon.git /root/JoKeRUB
+RUN git clone https://github.com/jepthoniq/jepthon.git /root/DARK
 #working directory 
-WORKDIR /root/JoKeRUB
+WORKDIR /root/DARK
 
 # Install requirements
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
