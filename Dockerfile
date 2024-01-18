@@ -11,6 +11,6 @@ RUN apt-get install -y nodejs
 RUN npm i -g npm
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-ENV PATH="/home/JoKeRUB/bin:$PATH"
+ENV PATH="/home/DARK/bin:$PATH"
 
-CMD ["python3","-m","JoKeRUB"]
+CMD ["python3","-m","DARK"]
